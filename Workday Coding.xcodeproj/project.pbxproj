@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A870D93C2A326523002C8655 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D93B2A326523002C8655 /* AppDelegate.swift */; };
+		A870D93E2A326523002C8655 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D93D2A326523002C8655 /* SceneDelegate.swift */; };
+		A870D9402A326523002C8655 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D93F2A326523002C8655 /* ViewController.swift */; };
+		A870D9432A326523002C8655 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A870D9412A326523002C8655 /* Main.storyboard */; };
+		A870D9462A326523002C8655 /* Workday_Coding.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A870D9442A326523002C8655 /* Workday_Coding.xcdatamodeld */; };
+		A870D9482A326524002C8655 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A870D9472A326524002C8655 /* Assets.xcassets */; };
+		A870D94B2A326524002C8655 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A870D9492A326524002C8655 /* LaunchScreen.storyboard */; };
+		A870D9562A326524002C8655 /* Workday_CodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9552A326524002C8655 /* Workday_CodingTests.swift */; };
+		A870D9602A326524002C8655 /* Workday_CodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D95F2A326524002C8655 /* Workday_CodingUITests.swift */; };
+		A870D9622A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A870D9522A326524002C8655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A870D9302A326523002C8655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A870D9372A326523002C8655;
+			remoteInfo = "Workday Coding";
+		};
+		A870D95C2A326524002C8655 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A870D9302A326523002C8655 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A870D9372A326523002C8655;
+			remoteInfo = "Workday Coding";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A870D9382A326523002C8655 /* Workday Coding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workday Coding.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A870D93B2A326523002C8655 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A870D93D2A326523002C8655 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A870D93F2A326523002C8655 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A870D9422A326523002C8655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A870D9452A326523002C8655 /* Workday_Coding.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Workday_Coding.xcdatamodel; sourceTree = "<group>"; };
+		A870D9472A326524002C8655 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A870D94A2A326524002C8655 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A870D94C2A326524002C8655 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A870D9512A326524002C8655 /* Workday CodingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workday CodingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A870D9552A326524002C8655 /* Workday_CodingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workday_CodingTests.swift; sourceTree = "<group>"; };
+		A870D95B2A326524002C8655 /* Workday CodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workday CodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A870D95F2A326524002C8655 /* Workday_CodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workday_CodingUITests.swift; sourceTree = "<group>"; };
+		A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workday_CodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A870D9352A326523002C8655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D94E2A326524002C8655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D9582A326524002C8655 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A870D92F2A326523002C8655 = {
+			isa = PBXGroup;
+			children = (
+				A870D93A2A326523002C8655 /* Workday Coding */,
+				A870D9542A326524002C8655 /* Workday CodingTests */,
+				A870D95E2A326524002C8655 /* Workday CodingUITests */,
+				A870D9392A326523002C8655 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A870D9392A326523002C8655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A870D9382A326523002C8655 /* Workday Coding.app */,
+				A870D9512A326524002C8655 /* Workday CodingTests.xctest */,
+				A870D95B2A326524002C8655 /* Workday CodingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A870D93A2A326523002C8655 /* Workday Coding */ = {
+			isa = PBXGroup;
+			children = (
+				A870D93B2A326523002C8655 /* AppDelegate.swift */,
+				A870D93D2A326523002C8655 /* SceneDelegate.swift */,
+				A870D93F2A326523002C8655 /* ViewController.swift */,
+				A870D9412A326523002C8655 /* Main.storyboard */,
+				A870D9472A326524002C8655 /* Assets.xcassets */,
+				A870D9492A326524002C8655 /* LaunchScreen.storyboard */,
+				A870D94C2A326524002C8655 /* Info.plist */,
+				A870D9442A326523002C8655 /* Workday_Coding.xcdatamodeld */,
+			);
+			path = "Workday Coding";
+			sourceTree = "<group>";
+		};
+		A870D9542A326524002C8655 /* Workday CodingTests */ = {
+			isa = PBXGroup;
+			children = (
+				A870D9552A326524002C8655 /* Workday_CodingTests.swift */,
+			);
+			path = "Workday CodingTests";
+			sourceTree = "<group>";
+		};
+		A870D95E2A326524002C8655 /* Workday CodingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A870D95F2A326524002C8655 /* Workday_CodingUITests.swift */,
+				A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */,
+			);
+			path = "Workday CodingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A870D9372A326523002C8655 /* Workday Coding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A870D9652A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday Coding" */;
+			buildPhases = (
+				A870D9342A326523002C8655 /* Sources */,
+				A870D9352A326523002C8655 /* Frameworks */,
+				A870D9362A326523002C8655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Workday Coding";
+			productName = "Workday Coding";
+			productReference = A870D9382A326523002C8655 /* Workday Coding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A870D9502A326524002C8655 /* Workday CodingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A870D9682A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday CodingTests" */;
+			buildPhases = (
+				A870D94D2A326524002C8655 /* Sources */,
+				A870D94E2A326524002C8655 /* Frameworks */,
+				A870D94F2A326524002C8655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A870D9532A326524002C8655 /* PBXTargetDependency */,
+			);
+			name = "Workday CodingTests";
+			productName = "Workday CodingTests";
+			productReference = A870D9512A326524002C8655 /* Workday CodingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A870D95A2A326524002C8655 /* Workday CodingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A870D96B2A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday CodingUITests" */;
+			buildPhases = (
+				A870D9572A326524002C8655 /* Sources */,
+				A870D9582A326524002C8655 /* Frameworks */,
+				A870D9592A326524002C8655 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A870D95D2A326524002C8655 /* PBXTargetDependency */,
+			);
+			name = "Workday CodingUITests";
+			productName = "Workday CodingUITests";
+			productReference = A870D95B2A326524002C8655 /* Workday CodingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A870D9302A326523002C8655 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A870D9372A326523002C8655 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A870D9502A326524002C8655 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A870D9372A326523002C8655;
+					};
+					A870D95A2A326524002C8655 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A870D9372A326523002C8655;
+					};
+				};
+			};
+			buildConfigurationList = A870D9332A326523002C8655 /* Build configuration list for PBXProject "Workday Coding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A870D92F2A326523002C8655;
+			productRefGroup = A870D9392A326523002C8655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A870D9372A326523002C8655 /* Workday Coding */,
+				A870D9502A326524002C8655 /* Workday CodingTests */,
+				A870D95A2A326524002C8655 /* Workday CodingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A870D9362A326523002C8655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A870D94B2A326524002C8655 /* LaunchScreen.storyboard in Resources */,
+				A870D9482A326524002C8655 /* Assets.xcassets in Resources */,
+				A870D9432A326523002C8655 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D94F2A326524002C8655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D9592A326524002C8655 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A870D9342A326523002C8655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A870D9402A326523002C8655 /* ViewController.swift in Sources */,
+				A870D93C2A326523002C8655 /* AppDelegate.swift in Sources */,
+				A870D93E2A326523002C8655 /* SceneDelegate.swift in Sources */,
+				A870D9462A326523002C8655 /* Workday_Coding.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D94D2A326524002C8655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A870D9562A326524002C8655 /* Workday_CodingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A870D9572A326524002C8655 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A870D9622A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift in Sources */,
+				A870D9602A326524002C8655 /* Workday_CodingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A870D9532A326524002C8655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A870D9372A326523002C8655 /* Workday Coding */;
+			targetProxy = A870D9522A326524002C8655 /* PBXContainerItemProxy */;
+		};
+		A870D95D2A326524002C8655 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A870D9372A326523002C8655 /* Workday Coding */;
+			targetProxy = A870D95C2A326524002C8655 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A870D9412A326523002C8655 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A870D9422A326523002C8655 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A870D9492A326524002C8655 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A870D94A2A326524002C8655 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A870D9632A326524002C8655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A870D9642A326524002C8655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A870D9662A326524002C8655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Workday Coding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-Coding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A870D9672A326524002C8655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Workday Coding/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-Coding";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A870D9692A326524002C8655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-CodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workday Coding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workday Coding";
+			};
+			name = Debug;
+		};
+		A870D96A2A326524002C8655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-CodingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Workday Coding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Workday Coding";
+			};
+			name = Release;
+		};
+		A870D96C2A326524002C8655 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-CodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workday Coding";
+			};
+			name = Debug;
+		};
+		A870D96D2A326524002C8655 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.Workday-CodingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Workday Coding";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A870D9332A326523002C8655 /* Build configuration list for PBXProject "Workday Coding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870D9632A326524002C8655 /* Debug */,
+				A870D9642A326524002C8655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A870D9652A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday Coding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870D9662A326524002C8655 /* Debug */,
+				A870D9672A326524002C8655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A870D9682A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday CodingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870D9692A326524002C8655 /* Debug */,
+				A870D96A2A326524002C8655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A870D96B2A326524002C8655 /* Build configuration list for PBXNativeTarget "Workday CodingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A870D96C2A326524002C8655 /* Debug */,
+				A870D96D2A326524002C8655 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A870D9442A326523002C8655 /* Workday_Coding.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A870D9452A326523002C8655 /* Workday_Coding.xcdatamodel */,
+			);
+			currentVersion = A870D9452A326523002C8655 /* Workday_Coding.xcdatamodel */;
+			path = Workday_Coding.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A870D9302A326523002C8655 /* Project object */;
+}
