@@ -17,6 +17,10 @@
 		A870D9562A326524002C8655 /* Workday_CodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9552A326524002C8655 /* Workday_CodingTests.swift */; };
 		A870D9602A326524002C8655 /* Workday_CodingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D95F2A326524002C8655 /* Workday_CodingUITests.swift */; };
 		A870D9622A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */; };
+		A870D9722A34228D002C8655 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9712A34228D002C8655 /* ContentTableViewCell.swift */; };
+		A870D9742A3422B3002C8655 /* Content.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9732A3422B3002C8655 /* Content.swift */; };
+		A870D9762A3422DE002C8655 /* ContentNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9752A3422DE002C8655 /* ContentNetwork.swift */; };
+		A870D9782A3422ED002C8655 /* ContentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A870D9772A3422ED002C8655 /* ContentBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		A870D95B2A326524002C8655 /* Workday CodingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workday CodingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A870D95F2A326524002C8655 /* Workday_CodingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workday_CodingUITests.swift; sourceTree = "<group>"; };
 		A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workday_CodingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A870D9712A34228D002C8655 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		A870D9732A3422B3002C8655 /* Content.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Content.swift; sourceTree = "<group>"; };
+		A870D9752A3422DE002C8655 /* ContentNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentNetwork.swift; sourceTree = "<group>"; };
+		A870D9772A3422ED002C8655 /* ContentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,9 @@
 		A870D93A2A326523002C8655 /* Workday Coding */ = {
 			isa = PBXGroup;
 			children = (
+				A870D9702A34223A002C8655 /* Views */,
+				A870D96F2A34210C002C8655 /* Network Layer */,
+				A870D96E2A3420FE002C8655 /* Domain Layer */,
 				A870D93B2A326523002C8655 /* AppDelegate.swift */,
 				A870D93D2A326523002C8655 /* SceneDelegate.swift */,
 				A870D93F2A326523002C8655 /* ViewController.swift */,
@@ -128,6 +139,31 @@
 				A870D9612A326524002C8655 /* Workday_CodingUITestsLaunchTests.swift */,
 			);
 			path = "Workday CodingUITests";
+			sourceTree = "<group>";
+		};
+		A870D96E2A3420FE002C8655 /* Domain Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A870D9732A3422B3002C8655 /* Content.swift */,
+			);
+			path = "Domain Layer";
+			sourceTree = "<group>";
+		};
+		A870D96F2A34210C002C8655 /* Network Layer */ = {
+			isa = PBXGroup;
+			children = (
+				A870D9752A3422DE002C8655 /* ContentNetwork.swift */,
+				A870D9772A3422ED002C8655 /* ContentBuilder.swift */,
+			);
+			path = "Network Layer";
+			sourceTree = "<group>";
+		};
+		A870D9702A34223A002C8655 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A870D9712A34228D002C8655 /* ContentTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +297,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A870D9782A3422ED002C8655 /* ContentBuilder.swift in Sources */,
+				A870D9742A3422B3002C8655 /* Content.swift in Sources */,
 				A870D9402A326523002C8655 /* ViewController.swift in Sources */,
+				A870D9762A3422DE002C8655 /* ContentNetwork.swift in Sources */,
 				A870D93C2A326523002C8655 /* AppDelegate.swift in Sources */,
 				A870D93E2A326523002C8655 /* SceneDelegate.swift in Sources */,
+				A870D9722A34228D002C8655 /* ContentTableViewCell.swift in Sources */,
 				A870D9462A326523002C8655 /* Workday_Coding.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
