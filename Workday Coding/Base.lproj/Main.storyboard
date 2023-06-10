@@ -18,12 +18,15 @@
                         <subviews>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="AuO-Vy-PfC">
                                 <rect key="frame" x="0.0" y="59" width="393" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="scq-kz-APE"/>
+                                </constraints>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="1Zq-B7-uYi"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="m4B-HZ-7Ir">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="AOu-ky-KXy">
                                 <rect key="frame" x="0.0" y="115" width="393" height="703"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
@@ -31,17 +34,18 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="m4B-HZ-7Ir" firstAttribute="top" secondItem="AuO-Vy-PfC" secondAttribute="bottom" id="4tG-ZW-UAP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AOu-ky-KXy" secondAttribute="trailing" id="4Kp-mt-CvK"/>
+                            <constraint firstItem="AOu-ky-KXy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Mcs-e2-61U"/>
                             <constraint firstItem="AuO-Vy-PfC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Msi-LB-AzD"/>
                             <constraint firstItem="AuO-Vy-PfC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="RN3-c3-dva"/>
-                            <constraint firstItem="m4B-HZ-7Ir" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VlZ-VX-HsD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AOu-ky-KXy" secondAttribute="bottom" id="VMd-4W-bS7"/>
                             <constraint firstItem="AuO-Vy-PfC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jEI-O8-gag"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m4B-HZ-7Ir" secondAttribute="bottom" id="mzw-sQ-q9G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="m4B-HZ-7Ir" secondAttribute="trailing" id="nQG-Gh-COZ"/>
+                            <constraint firstItem="AOu-ky-KXy" firstAttribute="top" secondItem="AuO-Vy-PfC" secondAttribute="bottom" id="kK4-Xy-Xpb"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tableView" destination="m4B-HZ-7Ir" id="kaf-4u-Kz6"/>
+                        <outlet property="searchBar" destination="AuO-Vy-PfC" id="iRs-3z-jGI"/>
+                        <outlet property="tableView" destination="AOu-ky-KXy" id="Lrh-2r-Pp0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
